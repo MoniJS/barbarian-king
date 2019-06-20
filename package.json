@@ -3,13 +3,19 @@
 	"main": "src/index.js",
 	"description": "",
 	"version": "0.0.1",
-	"scripts": {},
+	"scripts": {
+        "test": "eslint ./",
+    },
 	"dependencies": {
 		"discord-akairo": "^7.5.6",
 		"discord.js": "^11.5.1",
 		"dotenv": "^8.0.0",
 		"request": "^2.88.0"
 	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-aqua": "^6.0.0"
+	}
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/MoniJs/barbarian-king.git"
