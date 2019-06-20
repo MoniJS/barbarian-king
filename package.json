@@ -1,5 +1,26 @@
 {
+	"name": "barbarian-king",
+	"main": "src/index.js",
+	"description": "",
+	"version": "0.0.1",
+	"scripts": {
+	},
     "dependencies": {
-        "discord.js": "github:discordjs/discord.js"
-    }
+        "discord-akairo": "github:discord-akairo/discord-akairo",
+        "discord.js": "github:discordjs/discord.js",
+        "dotenv": "^8.0.0",
+        "request": "^2.88.0"
+    },
+    "repository": {
+		"type": "git",
+		"url": "git+https://github.com/MoniJs/barbarian-king.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MoniJs/barbarian-King/issues"
+	},
+	"homepage": "https://github.com/MoniJs/barbarian-King#readme"
+}
 }
