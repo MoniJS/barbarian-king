@@ -5,10 +5,13 @@
 	"version": "1.0.0",
 	"scripts": {},
 	"dependencies": {
+		"@sentry/node": "^5.4.3",
 		"discord-akairo": "discord-akairo/discord-akairo",
 		"discord.js": "discordjs/discord.js",
 		"dotenv": "^8.0.0",
-		"request": "^2.88.0"
+		"request": "^2.88.0",
+		"sequelize": "^5.9.2",
+		"sqlite3": "^4.0.9"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
