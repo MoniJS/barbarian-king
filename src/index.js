@@ -10,9 +10,9 @@ if (process.env.SENTRY) {
 	Sentry.init({ dsn: process.env.SENTRY, environment, release });
 }
 
-client.on('error', error => console.error(error, { level: 'CLIENT ERROR' }));
-client.on('warn', warn => console.error(warn, { level: 'CLIENT WARN' }));
+client.on('error', error => console.error(error));
+client.on('warn', warn => console.error(warn));
 
 client.start(process.env.TOKEN);
 
-process.on('unhandledRejection', error => console.error(error, { level: 'UNHANDLED REJECTION' }));
+process.on('unhandledRejection', error => console.error(error));
