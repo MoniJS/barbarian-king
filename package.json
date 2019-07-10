@@ -6,7 +6,6 @@
 	"scripts": {},
 	"dependencies": {
 		"@sentry/node": "^5.4.3",
-		"clash-of-clans-api": "^0.6.2",
 		"discord-akairo": "discord-akairo/discord-akairo",
 		"discord.js": "discordjs/discord.js",
 		"dotenv": "^8.0.0",
