@@ -1,0 +1,1 @@
+pm2 start src/index.js --name Moni --watch --ignore-watch="node_modules"
