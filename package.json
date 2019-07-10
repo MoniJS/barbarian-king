@@ -9,6 +9,8 @@
 		"discord-akairo": "discord-akairo/discord-akairo",
 		"discord.js": "discordjs/discord.js",
 		"dotenv": "^8.0.0",
+		"node-fetch": "^2.6.0",
+		"querystring": "^0.2.0",
 		"request": "^2.88.0",
 		"sequelize": "^5.9.2",
 		"sqlite3": "^4.0.9"
