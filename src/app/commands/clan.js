@@ -14,7 +14,7 @@ class ClanCommand extends Command {
                         match: 'content',
                         type: 'string',
                         prompt: {
-                            start: `<@${message.author.id}> , what would you like to search for ?`,
+                            start: 'What clan would you like to search for ?',
                             retry: "That's not a valid clan tag! Try again."
                         }
                     }
@@ -26,17 +26,6 @@ class ClanCommand extends Command {
     }
 
     async exec(message, { name }) {
-        
-        if(!name) {
-            prompt: {
-                start: message => {
-                    const embed = new MessageEmbed().setDescription('Please input a member!');
-                    const content = 'Please!';
-                    return { embed, content };
-                }
-            }
-        }
-        
     
         const uri = `https://api.clashofclans.com/v1/clans/${encodeURIComponent(name)}`;
         const res = await fetch(uri, { method: 'GET', headers: { Accept: 'application/json', authorization: `Bearer ${process.env.COC_API}` } });
