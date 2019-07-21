@@ -6,7 +6,7 @@
 	  <p>
 	  <a href="https://discord.gg/jQdFFH6"><img 	src="https://img.shields.io/discord/550140222822809610.svg?colorB=Blue&logo=discord&label=Support&style=for-the-badge" alt="Discord server" /></a>
 	  <a href="https://travis-ci.com/MoniJS/barbarian-king">
-    <img src="https://img.shields.io/travis/MoniJS/barbarian-king/master.svg?style=for-the-badge" alt="Build">
+    <img src="https://img.shields.io/travis/com/monijs/barbarian-king.svg?style=for-the-badge" alt="Build">
 </a>
 	    <a><img src="https://img.shields.io/github/languages/top/MoniJS/barbarian-king.svg?colorB=f0db4f&style=for-the-badge" alt="Language" /></a>
 	<a href="https://github.com/MoniJS/barbarian-king/issues">
