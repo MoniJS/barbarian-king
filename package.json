@@ -4,13 +4,15 @@
 	"description": "",
 	"version": "1.0.0",
 	"scripts": {
-		"run": "node src/index"
+		"test": "",
+		"server": "node src/index"
 	},
 	"dependencies": {
 		"@sentry/node": "^5.5.0",
 		"discord-akairo": "discord-akairo/discord-akairo",
 		"discord.js": "discordjs/discord.js",
 		"dotenv": "^8.0.0",
+		"is-reachable": "^3.1.0",
 		"node-fetch": "^2.6.0",
 		"querystring": "^0.2.0",
 		"request": "^2.88.0",
