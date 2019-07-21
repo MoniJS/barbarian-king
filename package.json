@@ -4,7 +4,7 @@
 	"description": "",
 	"version": "1.0.0",
 	"scripts": {
-		"test": "",
+		"test": "node src/test",
 		"server": "node src/index"
 	},
 	"dependencies": {
