@@ -3,7 +3,10 @@
 	"main": "src/index.js",
 	"description": "",
 	"version": "1.0.0",
-	"scripts": {},
+	"scripts": {
+		"test": "eslint ./",
+		"lint": "eslint --fix ./"
+	},
 	"dependencies": {
 		"@sentry/node": "^5.5.0",
 		"discord-akairo": "discord-akairo/discord-akairo",
