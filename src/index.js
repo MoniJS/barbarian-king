@@ -9,7 +9,7 @@ const client = new Client({ owner: process.env.OWNER });
 if (process.env.SENTRY) {
 	Sentry.init({ dsn: process.env.SENTRY, environment, release });
 }
-console.log('IM READY');
+
 client.on('error', error => console.error(error));
 client.on('warn', warn => console.error(warn));
 

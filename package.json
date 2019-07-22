@@ -9,15 +9,22 @@
 	},
 	"dependencies": {
 		"@sentry/node": "^5.5.0",
+		"chalk": "^2.4.2",
 		"discord-akairo": "discord-akairo/discord-akairo",
 		"discord.js": "discordjs/discord.js",
 		"dotenv": "^8.0.0",
 		"is-reachable": "^3.1.0",
+		"moment": "^2.24.0",
+		"moment-duration-format": "^2.3.2",
 		"node-fetch": "^2.6.0",
+		"path": "^0.12.7",
+		"pg": "^7.11.0",
 		"querystring": "^0.2.0",
 		"request": "^2.88.0",
-		"sequelize": "^5.9.2",
-		"sqlite3": "^4.0.9"
+		"request-promise": "^4.2.4",
+		"sequelize": "^5.10.1",
+		"sqlite3": "^4.0.9",
+		"util": "^0.12.1"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
