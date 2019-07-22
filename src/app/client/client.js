@@ -60,7 +60,7 @@ class Client extends AkairoClient {
 	async start(token) {
 		await Database.sync();
 		await this.settings.init();
-		return this.login(token);
+		return this.login(token);	
 	}
 }
 
